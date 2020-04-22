@@ -8,7 +8,7 @@ def countdown(n)
  return "HAPPY NEW YEAR!"
 end
 def countdown_with_sleep(n)
-  x=0
+  x = 0
     while x > n.length do
         countdown_output = "#{n} SECOND(S)!\n"
         puts countdown_output
