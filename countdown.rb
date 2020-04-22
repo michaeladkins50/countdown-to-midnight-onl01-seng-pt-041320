@@ -1,6 +1,6 @@
 #write your code here
 def countdown(n)
-  while n>0 
+  while n>0
         countdown_output = "#{n} SECOND(S)!\n"
         puts countdown_output
         n-=1
