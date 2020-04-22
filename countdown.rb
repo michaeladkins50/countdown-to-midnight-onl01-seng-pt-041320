@@ -9,10 +9,11 @@ def countdown(n)
 end
 def countdown_with_sleep(n)
   x=0
-    while x > n.length
-      countdown_output = "#{n} SECOND(S)!\n"
-      puts countdown_output
-      sleep 1
-      x-=1
+    while x > n.length do
+        countdown_output = "#{n} SECOND(S)!\n"
+        puts countdown_output
+        sleep 1
+        x += 1
+        end
     end
 end
